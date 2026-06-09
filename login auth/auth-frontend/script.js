@@ -41,7 +41,7 @@ async function registerUser() {
 
         if (response.ok) {
 
-            window.location.href = "login.html";
+            window.location.href = "index.html";
 
         }
 
@@ -122,6 +122,6 @@ function logoutUser() {
     localStorage.removeItem("token");
 
     window.location.href =
-        "login.html";
+        "index.html";
 
 }
