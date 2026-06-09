@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coffee To-Do List</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Coffee Task Manager ☕</h1>
+    <p class="tagline">
+    Organize your day, one task at a time.
+    </p>
+
+    <div class="container">
+
+        <!-- LEFT SIDE -->
+
+        <div class="form-box">
+
+            <h2>Add New Task</h2>
+
+            <input
+                type="text"
+                id="title"
+                placeholder="Task Title">
+
+            <textarea
+                id="description"
+                placeholder="Task Description"></textarea>
+
+            <button id="addBtn">
+                Add Task
+            </button>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+
+        <div class="task-section">
+
+            <h2>Pending Tasks</h2>
+
+            <div id="pendingTasks"></div>
+
+            <h2 class="completed-heading">
+                Completed Tasks
+            </h2>
+
+            <div id="completedTasks"></div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

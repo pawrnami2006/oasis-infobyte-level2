@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    min-height:100vh;
+
+    background:#d380059e;
+
+    padding:40px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:40px;
+
+    color:#4E342E;
+}
+.tagline{
+    text-align:center;
+    color:#8d6e63;
+    margin-top:-20px;
+    margin-bottom:35px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:350px 1fr;
+    gap:30px;
+}
+
+/* FORM */
+
+.form-box{
+    background:#fffaf5;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+    height:fit-content;
+}
+
+.form-box h2{
+    margin-bottom:20px;
+    color:#4E342E;
+}
+
+input,
+textarea{
+    width:100%;
+
+    padding:15px;
+
+    border:2px solid #D7CCC8;
+
+    border-radius:10px;
+
+    margin-bottom:15px;
+
+    outline:none;
+}
+
+textarea{
+    height:180px;
+    resize:none;
+}
+
+#addBtn{
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    background:#6D4C41;
+
+    color:white;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+}
+
+#addBtn:hover{
+    background:#4E342E;
+}
+
+/* TASK SECTION */
+
+.task-section h2{
+    color:#4E342E;
+    margin-bottom:15px;
+}
+
+.completed-heading{
+    margin-top:40px;
+}
+
+.task-card{
+    background:#FFF8F0;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    margin-bottom:15px;
+
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+}
+.task-card:hover{
+    transform:translateY(-3px);
+}
+
+.task-card h3{
+    color:#4E342E;
+    margin-bottom:8px;
+}
+
+.task-card p{
+    color:#555555;
+    margin-bottom:10px;
+}
+.task-section h2{
+    border-bottom:3px solid #6D4C41;
+    padding-bottom:8px;
+}
+
+.time{
+    font-size:12px;
+    color:#8D6E63;
+    margin-bottom:15px;
+}
+
+.buttons{
+    display:flex;
+    gap:10px;
+}
+
+.complete-btn,
+.delete-btn,
+.edit-btn{
+
+    border:none;
+
+    padding:10px 15px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+}
+
+.complete-btn{
+    background:#A1887F;
+    color:white;
+}
+
+.edit-btn{
+    background:#D7CCC8;
+}
+
+.delete-btn{
+    background:#8D6E63;
+    color:white;
+}
+.edit-btn{
+    background:#C8B6A6;
+    color:#4E342E;
+}
+
+.edit-btn:hover{
+    background:#B7A18D;
+}
+#pendingTasks,
+#completedTasks{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
