@@ -1,82 +1,143 @@
 # Oasis Infobyte Level 2 Projects
 
-This repository contains the projects completed as part of the Oasis Infobyte Web Development Internship - Level 2.
+This repository contains the projects completed as part of the **Oasis Infobyte Web Development Internship – Level 2**.
 
-## Projects
+---
 
-### 1. Calculator
+# 1. Calculator
 
-A responsive calculator built using HTML, CSS, and JavaScript.
+A responsive calculator built using **HTML, CSS, and JavaScript**.
 
-**Features**
+## Features
 
-* Basic arithmetic operations
-* Square root calculation
-* Percentage calculation
-* Responsive user interface
+- Basic arithmetic operations
+- Percentage calculation
+- Square root calculation
+- Responsive user interface
 
-### 2. Tribute Page
+## Screenshot
 
-A tribute page dedicated to Savitribai Phule.
+![Calculator](screenshots/calculator.png)
 
-**Features**
+---
 
-* Biography section
-* Documentary video embed
-* Quote and image section
-* Achievements and legacy sections
+# 2. Tribute Page
 
-### 3. To-Do Web App
+A tribute page dedicated to **Savitribai Phule**.
 
-A task management application built using HTML, CSS, and JavaScript.
+## Features
 
-**Features**
+- Biography section
+- Inspirational quotes
+- Image gallery
+- Achievements and legacy section
+- Documentary video embed
 
-* Add tasks
-* Edit tasks
-* Delete tasks
-* Mark tasks as completed
-* Separate Pending and Completed task sections
-* Date and time tracking
+## Screenshots
 
-### 4. Login Authentication System
+### Hero Section
+![Tribute Page 1](screenshots/tribute1.png)
 
-A full-stack authentication system.
+### Biography Section
+![Tribute Page 2](screenshots/tribute2.png)
 
-**Frontend**
+### Achievements Section
+![Tribute Page 3](screenshots/tribute3.png)
 
-* HTML
-* CSS
-* JavaScript
+### Legacy Section
+![Tribute Page 4](screenshots/tribute4.png)
 
-**Backend**
+---
 
-* Node.js
-* Express.js
-* MongoDB Atlas
-* JWT Authentication
-* bcrypt password hashing
+# 3. To-Do Web App
 
-**Features**
+A task management application built using **HTML, CSS, and JavaScript**.
 
-* User Registration
-* User Login
-* Protected Dashboard
-* Secure Password Storage
+## Features
 
-## Technologies Used
+- Add tasks
+- Edit tasks
+- Delete tasks
+- Mark tasks as completed
+- Separate Pending and Completed sections
+- Date and time tracking
 
-* HTML5
-* CSS3
-* JavaScript
-* Node.js
-* Express.js
-* MongoDB Atlas
-* JWT
-* bcrypt
+## Screenshot
 
-## Author
+![To Do App](screenshots/to_do.png)
+
+---
+
+# 4. Login Authentication System
+
+A full-stack authentication system with secure user authentication and authorization.
+
+## Frontend
+
+- HTML
+- CSS
+- JavaScript
+
+## Backend
+
+- Node.js
+- Express.js
+- MongoDB Atlas
+- JWT Authentication
+- bcrypt Password Hashing
+
+## Features
+
+- User Registration
+- User Login
+- Protected Dashboard
+- JWT Authentication
+- Secure Password Storage
+- MongoDB Database Integration
+
+## Screenshots
+
+### Registration Page
+![Register](screenshots/register.png)
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+# Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
+- Express.js
+- MongoDB Atlas
+- JWT
+- bcrypt
+
+---
+
+# Repository Structure
+
+```text
+LEVEL2/
+│
+├── calculator/
+├── login auth/
+├── todo-app/
+├── tribute page/
+├── screenshots/
+└── README.md
+```
+
+---
+
+# Author
 
 **Pawrnami Omprakash**
 
-Oasis Infobyte Web Development Internship - Level 2
+Oasis Infobyte Web Development Internship – Level 2
